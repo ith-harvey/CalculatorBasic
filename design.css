@@ -1,0 +1,70 @@
+
+h1 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    margin-top: 120px;
+    
+}
+
+#calculator {
+    
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    margin: 50px auto;
+    border: 1px solid black;
+    background: lightblue;
+}
+
+#display {
+    width: 222px;
+    height: 25px;
+    margin: 10px auto 10px auto;
+    text-align: right;
+}
+
+input[name=keys] {
+    width: 50px;
+    height: 50px;
+    margin: 6px 2px 6px 2px;
+    border: 0px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    background: Honeydew;
+}
+
+input[name=keys]:hover {
+    background: grey;
+    font-weight: bolder;
+    
+}
+
+#C {
+    width: 110px;
+    height: 50px;
+    margin: 6px 2px 6px 2px;
+    border: 0px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    background: Honeydew;
+}
+
+#C: hover {
+    background: grey;
+    font-weight: bolder;
+}
+
+#equal {
+    width: 110px;
+    height: 50px;
+    margin: 6px 2px 6px 2px;
+    border: 0px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    background: Honeydew;
+}
+
+#equal: hover {
+    background: grey;
+    font-weight: bolder;
+}
